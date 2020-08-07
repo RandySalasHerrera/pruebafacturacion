@@ -22,9 +22,10 @@ namespace NET_CORE
         {       
 
             services.AddTransient<IClienteRepository ,  ClienteRepository>();
-            services.AddTransient<IProductoRepository, ProductoRepository>();
+            services.AddTransient<IProductoRepository,  ProductoRepository>();
             services.AddTransient<IFacturaRepository ,  FacturaRepository>();
             services.AddTransient<IDetalleRepository ,  DetalleRepository>();
+            services.AddTransient<IInformeRepository ,  InformeRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
