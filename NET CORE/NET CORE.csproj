@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>NET_CORE</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="JObject" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="System.Drawing.Common" Version="4.6.0-preview.19073.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+     <Reference Include="FlexCel">
+      <HintPath>lib\FlexCel.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>lib\FastReport.dll</HintPath>
+    </Reference>
+     <Reference Include="FastReport.Web">
+      <HintPath>lib\FastReport.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

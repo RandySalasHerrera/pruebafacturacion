@@ -1,0 +1,76 @@
+D:\Test\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.deps.json
+D:\Test\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.json
+D:\Test\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.dev.json
+D:\Test\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.dll
+D:\Test\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.pdb
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csprojAssemblyReference.cache
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CoreCompileInputs.cache
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cache
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cs
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfoInputs.cache
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfo.cs
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorTargetAssemblyInfo.cache
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.dll
+D:\Test\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.deps.json
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.json
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.dev.json
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csprojAssemblyReference.cache
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CoreCompileInputs.cache
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cache
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cs
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfoInputs.cache
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfo.cs
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorTargetAssemblyInfo.cache
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FastReport.dll
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FastReport.Web.dll
+C:\Users\salas\Desktop\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FlexCel.dll
+C:\Users\salas\Desktop\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CopyComplete
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csprojAssemblyReference.cache
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfoInputs.cache
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfo.cs
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CoreCompileInputs.cache
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cache
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cs
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.deps.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.dev.json
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FastReport.dll
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FastReport.Web.dll
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\bin\Debug\netcoreapp2.2\FlexCel.dll
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorTargetAssemblyInfo.cache
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CopyComplete
+C:\Users\salas\Desktop\varios\Angular adv\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.genruntimeconfig.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.deps.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.runtimeconfig.dev.json
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\FastReport.dll
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\FastReport.Web.dll
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\bin\Debug\netcoreapp2.2\FlexCel.dll
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csprojAssemblyReference.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfoInputs.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.AssemblyInfo.cs
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CoreCompileInputs.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorAssemblyInfo.cs
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.RazorTargetAssemblyInfo.cache
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.csproj.CopyComplete
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.dll
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.pdb
+C:\Users\salas\Desktop\proyectos\pruebafacturacion\NET CORE\obj\Debug\netcoreapp2.2\NET CORE.genruntimeconfig.cache
