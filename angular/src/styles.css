@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+.ancho-popup{
+  max-width: 700px !important;
+}
+
+.btn-espacio{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.inputTotal {
+  width: 95% !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.imagen-forex{
+  width: 300px;
+  height: 250px;
+}

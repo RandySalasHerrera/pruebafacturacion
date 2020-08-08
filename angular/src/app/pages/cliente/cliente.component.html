@@ -1,0 +1,90 @@
+<div class="row animated fadeIn">
+  <div class="col-12">
+    <div class="btn-group btn-espacio">
+      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        <i class="ti-settings"></i>
+      </button>
+      <div class="dropdown-menu">
+        <button type="button" class="pointer dropdown-item" (click)="this.openPopUp({}, true)">Crear</button>
+        <button type="button" class="pointer dropdown-item" (click)="this.loadList()">Refrescar</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row animated fadeIn" *ngIf="cargando">
+
+  <div class="col-sm-12">
+
+    <div class="alert alert-warning text-center">
+      <strong>Cargando</strong>
+      <br>
+      <i class="fa fa-refresh fa-spin fa-2x"></i>
+      <br>
+      <span>Espere por favor</span>
+    </div>
+  </div>
+</div>
+
+<div class="row animated fadeIn" >
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Listado clientes</h3>
+        <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Codigo</th>
+              <th>Nombre</th>
+              <th>Apellidos</th>
+              <th>Edad</th>
+              <th>Direccion</th>
+              <th>Telefono</th>
+            </tr>
+          </thead>
+
+          <tbody *ngIf="!cargando">
+            <tr *ngFor="let item of this.usuarios">
+              <td>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Opciones
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="pointer dropdown-item" (click)="this.openPopUp(item, false)">Actualizar</a>
+                    <a class="pointer dropdown-item" (click)="this.delete(item)">Eliminar</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                {{ item.id }}
+              </td>
+              <td class="w70">
+                {{ item.nombre }}
+              </td>
+              <td>
+                {{ item.apellidos }}
+              </td>
+              <td>
+                {{ item.edad }}
+              </td>
+              <td>{{ item.direccion }}</td>
+              <td>{{ item.telefono }}</td>
+            </tr>
+
+          </tbody>
+
+        </table>
+      </div>
+        <mat-paginator [length]="totalRegistros" [pageSize]="1" [pageSizeOptions]="[1]"
+        (page)="this.paginator($event)">
+        </mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

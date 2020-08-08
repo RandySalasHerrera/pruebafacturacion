@@ -1,0 +1,189 @@
+<div class="row animated fadeIn">
+  <div class="col-12">
+
+
+  </div>
+</div>
+
+<div class="row animated fadeIn" *ngIf="cargando">
+
+  <div class="col-sm-12">
+
+    <div class="alert alert-warning text-center">
+      <strong>Cargando</strong>
+      <br>
+      <i class="fa fa-refresh fa-spin fa-2x"></i>
+      <br>
+      <span>Espere por favor</span>
+    </div>
+  </div>
+</div>
+
+<div class="row animated fadeIn" >
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Listado productos</h3>
+        <div class="btn-group btn-espacio">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="ti-settings"></i>
+            Menu
+          </button>
+          <div class="dropdown-menu">
+            <button type="button" class="pointer dropdown-item" (click)="this.loadList()">Refrescar</button>
+          </div>
+        </div>
+        <mat-tab-group mat-align-tabs="start">
+          <mat-tab label="Clientes no mayores de 35 años">
+
+            <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Cod. Cliente</th>
+                  <th>Cliente</th>
+                  <th>Edad</th>
+                </tr>
+              </thead>
+
+              <tbody *ngIf="!cargando">
+                <tr *ngFor="let item of this.usuarios">
+
+                  <td>
+                    {{ item.id }}
+                  </td>
+                  <td class="w70">
+                    {{ item.nombre }}
+                  </td>
+                  <td>
+                    {{ item.edad }}
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+          </mat-tab>
+          <mat-tab label="Listado clientes ultima compra">
+
+            <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Cod. Cliente</th>
+                  <th>Cliente</th>
+                  <th>Primera compra</th>
+                  <th>Ultima compra</th>
+                  <th>Proxima compra</th>
+                </tr>
+              </thead>
+
+              <tbody *ngIf="!cargando">
+                <tr *ngFor="let item of this.ultimacompra">
+
+                  <td>
+                    {{ item.id }}
+                  </td>
+                  <td class="w70">
+                    {{ item.nombre }}
+                  </td>
+                  <td>
+                    {{ item.primera_compra | date: "dd/MM/yyyy" }}
+                  </td>
+                  <td>
+                    {{ item.ultima_compra | date: "dd/MM/yyyy"}}
+                  </td>
+                  <td>
+                    {{ item.proximacompra | date: "dd/MM/yyyy"}}
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+          </mat-tab>
+          <mat-tab label="Listado clientes ultima compra">
+
+            <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Cod. Producto</th>
+                  <th>Producto</th>
+                  <th>Cantidad</th>
+                  <th>Inventario</th>
+                </tr>
+              </thead>
+
+              <tbody *ngIf="!cargando">
+                <tr *ngFor="let item of this.alertaproducto">
+
+                  <td>
+                    {{ item.id }}
+                  </td>
+                  <td class="w70">
+                    {{ item.nombre }}
+                  </td>
+                  <td>
+                    {{ item.cantidad }}
+                  </td>
+                  <td>
+                    {{ item.inventario }}
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+          </mat-tab>
+          <mat-tab label="Listado total vendido por producto">
+
+            <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Cod. Producto</th>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Total vendido</th>
+                </tr>
+              </thead>
+
+              <tbody *ngIf="!cargando">
+                <tr *ngFor="let item of this.totalvendido">
+
+                  <td>
+                    {{ item.id }}
+                  </td>
+                  <td class="w70">
+                    {{ item.nombre }}
+                  </td>
+                  <td>
+                    {{ item.precio }}
+                  </td>
+                  <td>
+                    {{ item.total_vendido }}
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+          </mat-tab>
+        </mat-tab-group>
+        </div>
+
+
+
+    </div>
+  </div>
+</div>

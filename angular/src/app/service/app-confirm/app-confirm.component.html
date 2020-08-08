@@ -1,0 +1,24 @@
+<h1 matDialogTitle>{{ data.title }}</h1>
+<mat-dialog-content>
+    <div fxLayout="row wrap" class="mt-1" fxLayout.lt-sm="column">
+        <div fxFlex="100" class="pr-1m">
+            {{ data.message }}
+        </div>
+        <div fxFlex="100" class="pr-1m" *ngIf="data.showjustification">
+            <mat-form-field class="full-width">
+                <input [(ngModel)]="this.justificacion" matInput type="text" placeholder="Justificación" required>
+            </mat-form-field>
+        </div>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-raised-button color="primary"
+        (click)="data.showjustification ? dialogRef.close({ estado :true, justificacion: this.justificacion}) : dialogRef.close(true)"
+        matTooltip="Aceptar">
+        <mat-icon aria-hidden="false">check</mat-icon>
+    </button>
+    <span fxFlex></span>
+    <button mat-raised-button color="warn" matTooltip="Cerrar" mat-raised-button (click)="this.dialogRef.close(false)">
+        <mat-icon aria-hidden="false">close</mat-icon>
+    </button>
+</mat-dialog-actions>
