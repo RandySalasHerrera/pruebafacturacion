@@ -1,15 +1,6 @@
 <div class="row animated fadeIn">
   <div class="col-12">
-    <div class="btn-group btn-espacio">
-      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false">
-        <i class="ti-settings"></i>
-      </button>
-      <div class="dropdown-menu">
-        <button type="button" class="pointer dropdown-item" (click)="this.openPopUp({}, true)">Crear</button>
-        <button type="button" class="pointer dropdown-item" (click)="this.loadList()">Refrescar</button>
-      </div>
-    </div>
+
 
   </div>
 </div>
@@ -33,6 +24,17 @@
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">Listado clientes</h3>
+        <div class="btn-group btn-espacio">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="ti-settings"></i>
+            MENU
+          </button>
+          <div class="dropdown-menu">
+            <button type="button" class="pointer dropdown-item" (click)="this.openPopUp({}, true)">Crear</button>
+            <button type="button" class="pointer dropdown-item" (click)="this.loadList()">Refrescar</button>
+          </div>
+        </div>
         <div class="table-responsive">
         <table class="table table-hover">
           <thead>
